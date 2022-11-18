@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch the Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div class="container">
+<div>
+    <p>Grid size must be between 1 and 100</p>
+    <label for="gridSize" class="rangeLabel"></label>
+        <input type="range" id="gridSize" placeholder="enter grid size"
+        min="1" max="100" value="16" name="gridSize" step="1">
+    
+    
+        
+        <label for="userColor" >Select Color Mode
+            <input type="color" name="" id="userColor" class="userColor">
+        </label> 
+
+        <br>
+        <input type="button" id="rainbowBtn" value="rainbow" name="rainbow">
+
+        <input type="button" value="clear" class="clear" name="clear">
+    
+</div>
+        
+        <main class="app">
+        
+        </main>
+    </div>
+ 
+</body>
+</html>

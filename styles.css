@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.app {
+    display: grid;
+    width: 30em;
+    height: 30em;
+    margin: auto;
+    /* border: 1px green solid; */
+    /* margin-block-start: -29px; */
+}
+
+input[type = 'button'] {
+    padding: 2px 20px 2px 20px;
+    text-transform: uppercase;
+    margin-block-end: 1em;
+    display: inline-block;
+    
+}
+
+#rainbowBtn {
+    appearance: none;
+    border: none;
+    background-image: linear-gradient(to right, rgb(243, 77, 77), skyblue);
+    color: black;
+}
+
+
+#rainbowBtn:hover, .clear:hover {
+    transform: scale(1.5);
+
+}
+
+.clear {
+    appearance: none;
+    border: none;
+    background-color: rgb(214, 251, 177);
+ 
+}
+
+input {
+    margin: 3px 1px;
+}
+
+input[type='color'] {
+    display: block;
+    border: 1px dotted;
+}
+
+.inputBtn {
+    margin-block-end: 1em;
+}
+
+label {
+    display: block;
+    margin-block-end: 1px;
+}
+
